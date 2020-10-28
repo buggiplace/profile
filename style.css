@@ -32,32 +32,51 @@ a:hover {
   border: solid;
   margin: 40px auto;
   border-color: rgba(75, 30, 34, .3);
-  border-radius: 60px;
+  border-radius: 40px;
   box-shadow: 0px 0px 20px #4B1E22;
   border-width: 20px;
+  transition: 0.5s;
+}
+
+.card-white {
+
 }
 
 .card-white h3 {
-  font-size: 50px
+  font-size: 50px;
 }
 
-
 .card-white:hover {
+  color: snow;
+  border-color: rgba(75, 30, 34, .8);
+  background-color: lightslategray;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.card-white:hover .img-circle {
+  box-shadow: 4px 4px 40px 10px #4B1E22;
+  transition: 0.5s;
+}
+
+.img-circle {
+  border-radius: 50%;
+  box-shadow: 2px 2px 20px #4B1E22;
   color: #4B1E22;
-  border-color: rgba(75, 30, 34, .5);
-  background-color: ghostwhite
+  border: solid;
+}
+
+.card-image {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
 }
 
 .container {
   width: 700px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
 }
-
-.img-circle {
-  border-radius: 50%;
-  box-shadow: 2px 2px 20px #4B1E22;
-}
-
 
 .text-center {
   text-align: center;
@@ -75,20 +94,6 @@ a:hover {
   font-size: 40px;
 }
 
-.grow{
-  transition: padding 1s ease-out;
-  transition: background-color 1s ease-out;
-
-}
-
-.grow:hover
-{
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-  transition:all 0.3s ease;
-}
-
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -104,5 +109,5 @@ a:hover {
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 300px;
+    width: 350px;
   }
