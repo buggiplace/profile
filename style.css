@@ -75,14 +75,19 @@ a:hover {
   font-size: 40px;
 }
 
+.grow{
+  transition: padding 1s ease-out;
+  transition: background-color 1s ease-out;
+
+}
+
 .grow:hover
 {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
-  transition:all 0.5s ease;
+  transition:all 0.3s ease;
 }
-
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
