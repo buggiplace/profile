@@ -45,6 +45,7 @@ a:hover {
 .card-white:hover {
   color: #4B1E22;
   border-color: rgba(75, 30, 34, .5);
+  background-color: ghostwhite
 }
 
 .container {
