@@ -4,7 +4,6 @@ body {
   color: lightslategray;
   font-size: 15px;
   line-height: 25px;
-  font
 }
 
 h1,h2 {
@@ -33,11 +32,11 @@ a:hover {
   border-color: rgba(75, 30, 34, .3);
   border-radius: 60px;
   box-shadow: 0px 0px 20px #4B1E22;
-  border-width: 20px
+  border-width: 20px;
 }
 
 .card-white:hover {
-  color: #4B1E22;;
+  color: #4B1E22;
 }
 
 .container {
