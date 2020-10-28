@@ -1,5 +1,7 @@
 body {
-  background-color: whitesmoke;
+  background-image: url("https://previews.123rf.com/images/llesia/llesia1508/llesia150800072/43859398-nahtlose-abstrakte-wellige-handgezeichnete-muster-endless-abstrakte-muster-vorlage-f%C3%BCr-das-design-und-dek.jpg");
+  background-color: #cccccc;
+  background-size: 40%;
   font-family: 'Lato', sans-serif;
   color: lightslategray;
   font-size: 15px;
@@ -37,6 +39,7 @@ a:hover {
 
 .card-white:hover {
   color: #4B1E22;
+  border-color: rgba(75, 30, 34, .5);
 }
 
 .container {
@@ -48,6 +51,7 @@ a:hover {
   border-radius: 50%;
   box-shadow: 2px 2px 20px #4B1E22;
 }
+
 
 .text-center {
   text-align: center;
